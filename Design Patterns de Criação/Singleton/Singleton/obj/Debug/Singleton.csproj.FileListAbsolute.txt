@@ -1,0 +1,14 @@
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\bin\Debug\Singleton.exe.config
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\bin\Debug\Singleton.exe
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\bin\Debug\Singleton.pdb
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\obj\Debug\Singleton.exe
+\\Mac\Home\Desktop\Pattners Update\Singleton\Singleton\Singleton\obj\Debug\Singleton.pdb
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\bin\Debug\Singleton.exe.config
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\bin\Debug\Singleton.exe
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\bin\Debug\Singleton.pdb
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\obj\Debug\Singleton.exe
+\\Mac\Home\Downloads\Singleton\Singleton\Singleton\Singleton\obj\Debug\Singleton.pdb
