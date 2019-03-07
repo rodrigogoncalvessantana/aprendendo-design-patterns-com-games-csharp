@@ -1,2 +1,3 @@
-# aprendendo-design-patterns-com-games-csharp
+# Aprendendo Design Patterns com jogos clássicos em C#
+
 Código Fonte do Livro
