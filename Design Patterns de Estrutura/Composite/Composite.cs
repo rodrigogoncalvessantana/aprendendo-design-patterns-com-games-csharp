@@ -6,7 +6,7 @@ namespace Composite
     public class Composite : ComponenteFase
     {
 
-        private List<ComponenteFase> filhos = new List<ComponenteFase>();
+        private List<ComponenteFase> fasesjogo = new List<ComponenteFase>();
 
         public Composite(string nome): base(nome)
         {
@@ -15,14 +15,14 @@ namespace Composite
 
         public override void Adicionar(ComponenteFase c)
         {
-            this.filhos.Add(c);
+            this.fasesjogo.Add(c);
         }
 
         public override void Mostrar(int profundidade)
         {
             Console.WriteLine(new string('-', profundidade) + nome); 
 
-            foreach (ComponenteFase item in this.filhos)
+            foreach (ComponenteFase item in this.fasesjogo)
             {
                 item.Mostrar(profundidade + 2);
             }
@@ -30,7 +30,7 @@ namespace Composite
 
         public override void Remover(ComponenteFase c)
         {
-            this.filhos.Remove(c);
+            this.fasesjogo.Remove(c);
         }
     }
 }

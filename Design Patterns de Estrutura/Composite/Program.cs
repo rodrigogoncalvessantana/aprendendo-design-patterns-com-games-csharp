@@ -8,21 +8,21 @@ namespace Composite
         {
             Composite mapa = new Composite("MAPA DAS CAVERNAS");
 
-            Composite cano1 = new Composite("Caverna 1");
-            cano1.Adicionar(new FaseJogo("Sub Fase 1"));
-            cano1.Adicionar(new FaseJogo("Sub Fase 2"));
-            cano1.Adicionar(new FaseJogo("Sub Fase 3"));
+            Composite caverna1 = new Composite("Caverna 1");
+            caverna1.Adicionar(new FaseJogo("Sub Fase 1"));
+            caverna1.Adicionar(new FaseJogo("Sub Fase 2"));
+            caverna1.Adicionar(new FaseJogo("Sub Fase 3"));
 
-            Composite cano2 = new Composite("Caverna 2");
-            cano2.Adicionar(new FaseJogo("Sub Fase 4"));
-            cano2.Adicionar(new FaseJogo("Sub Fase 5"));
+            Composite caverna2 = new Composite("Caverna 2");
+            caverna2.Adicionar(new FaseJogo("Sub Fase 4"));
+            caverna2.Adicionar(new FaseJogo("Sub Fase 5"));
 
             Composite porta_secreta = new Composite("Porta Secreta");
             porta_secreta.Adicionar(new FaseJogo("Sub Fase Secreta X"));
 
-            mapa.Adicionar(cano1);
-            mapa.Adicionar(cano2);
-            cano2.Adicionar(porta_secreta);
+            mapa.Adicionar(caverna1);
+            mapa.Adicionar(caverna2);
+            caverna2.Adicionar(porta_secreta);
 
             //root.Adicionar(folha);
             //root.Remover(folha);
