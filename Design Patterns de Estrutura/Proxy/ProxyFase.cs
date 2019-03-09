@@ -2,15 +2,15 @@
 
 namespace Proxy
 {
-    public class ProxyUsuario : IJogo
+    public class ProxyFase : IFase
     {
         FaseJogo fasejogo;
         string password = "123";
 
-        public string Consultar()
+        public string Jogar()
         {
             if (this.fasejogo != null)
-                return fasejogo.Consultar();
+                return fasejogo.Jogar();
 
             return "Informe o PASSWORD correto para abrir a fase do jogo!";
         }

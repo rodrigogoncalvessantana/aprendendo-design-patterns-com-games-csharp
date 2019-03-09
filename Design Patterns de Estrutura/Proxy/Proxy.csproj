@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IJogo.cs" />
+    <Compile Include="IFase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProxyUsuario.cs" />
+    <Compile Include="ProxyFase.cs" />
     <Compile Include="FaseJogo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,7 @@ namespace Proxy
 {
     public class FaseJogo
     {
-        public string Consultar()
+        public string Jogar()
         {
             return "Você está de volta a fase do jogo!";
         }       
