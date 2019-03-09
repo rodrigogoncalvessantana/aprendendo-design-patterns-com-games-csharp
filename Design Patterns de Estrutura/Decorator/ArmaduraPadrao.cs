@@ -1,6 +1,6 @@
 ﻿namespace Decorator
 {
-    public class ArmaduraPadrao : ArmaduraPersonagem
+    public class ArmaduraPadrao : MoldeArmadura
     {        
         string _descricao = "Proteção Simples, ";
         

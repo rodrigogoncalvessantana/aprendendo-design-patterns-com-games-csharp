@@ -7,7 +7,7 @@ namespace Decorator
         static void Main(string[] args)
         {            
             Console.WriteLine(" ### Veste Armadura Padrão ###");
-            ArmaduraPersonagem armadura = new ArmaduraPadrao();
+            MoldeArmadura armadura = new ArmaduraPadrao();
             Console.WriteLine("Descrição: " + armadura.Descricao.TrimEnd(' ', ','));
 
             Console.WriteLine();

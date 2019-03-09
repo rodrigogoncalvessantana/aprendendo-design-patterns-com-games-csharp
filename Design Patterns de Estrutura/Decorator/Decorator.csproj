@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArmaduraPersonagem.cs" />
+    <Compile Include="MoldeArmadura.cs" />
     <Compile Include="DecoratorArmadura.cs" />
     <Compile Include="ArmaduraPadrao.cs" />
     <Compile Include="Capacete.cs" />

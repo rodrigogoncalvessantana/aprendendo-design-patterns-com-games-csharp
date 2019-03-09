@@ -3,18 +3,18 @@
     public class Capacete : DecoratorArmadura
     {        
         string _descricao = "Capacte, ";
-        ArmaduraPersonagem _armadurapersonagem;
+        MoldeArmadura _moldeArmadura;
 
-        public Capacete(ArmaduraPersonagem armadurapersonagem)
+        public Capacete(MoldeArmadura moldeArmadura)
         {
-            _armadurapersonagem = armadurapersonagem;
+            _moldeArmadura = moldeArmadura;
         }
        
         public override string Descricao
         {
             get
             {
-                return _armadurapersonagem.Descricao + _descricao;
+                return _moldeArmadura.Descricao + _descricao;
             }
         }
     }
