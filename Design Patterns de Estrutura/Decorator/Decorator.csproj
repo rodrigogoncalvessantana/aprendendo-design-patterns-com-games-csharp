@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA04BA95-FBA1-4808-B588-2DD069B4E55D}</ProjectGuid>
+    <ProjectGuid>{ED72453F-860C-4CF9-9823-69BBA1879B01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Decorator</RootNamespace>
-    <AssemblyName>Decorator</AssemblyName>
+    <RootNamespace>Decorator2</RootNamespace>
+    <AssemblyName>Decorator2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmaduraPersonagem.cs" />
+    <Compile Include="DecoratorArmadura.cs" />
+    <Compile Include="ArmaduraPadrao.cs" />
     <Compile Include="Capacete.cs" />
-    <Compile Include="Decorator.cs" />
-    <Compile Include="EquiparPersonagem.cs" />
-    <Compile Include="ItemArmadura.cs" />
     <Compile Include="Espada.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Escudo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

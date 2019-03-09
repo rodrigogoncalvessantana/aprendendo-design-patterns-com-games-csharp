@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator2\Decorator.csproj", "{ED72453F-860C-4CF9-9823-69BBA1879B01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator.csproj", "{ED72453F-860C-4CF9-9823-69BBA1879B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8610FB72-9683-4036-895B-F83BEA3463E0}
+		SolutionGuid = {69093E3B-70A3-414F-A58A-0C2B5269E3A4}
 	EndGlobalSection
 EndGlobal

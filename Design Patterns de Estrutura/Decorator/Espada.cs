@@ -1,12 +1,21 @@
-﻿using System;
-
-namespace Decorator
+﻿namespace Decorator
 {
-    public class Espada : ItemArmadura
-    {
-        public override void Exibe()
+    public class Espada : DecoratorArmadura
+    {        
+        string _descricao = "Espada Ultra Forte, ";
+        ArmaduraPersonagem _armadurapersonagem;
+
+        public Espada(ArmaduraPersonagem armadurapersonagem)
         {
-            Console.WriteLine("Equipado com: " + this.Descricao);
+            _armadurapersonagem = armadurapersonagem;
+        }
+     
+        public override string Descricao
+        {
+            get
+            {
+                return _armadurapersonagem.Descricao + _descricao;
+            }
         }
     }
 }

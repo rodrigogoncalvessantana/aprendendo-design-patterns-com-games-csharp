@@ -5,20 +5,18 @@ namespace Decorator
     class Program
     {
         static void Main(string[] args)
-        {
-            ItemArmadura espada = new Espada();
-            espada.Descricao = "Espada Ultra Forte";
+        {            
+            Console.WriteLine(" ### Veste Armadura Padrão ###");
+            ArmaduraPersonagem armadura = new ArmaduraPadrao();
+            Console.WriteLine("Descrição: " + armadura.Descricao.TrimEnd(' ', ','));
 
-            ItemArmadura escudo = new Escudo();
-            escudo.Descricao = "Escudo de Titanium";
+            Console.WriteLine();
 
-            ItemArmadura capacete = new Capacete();
-            capacete.Descricao = "Capacete a prova de balas";
+            Console.WriteLine(" ### Incluir Novos Itens na Armadura (Decorar) ###");
+            armadura = new Capacete(armadura);
+            armadura = new Espada(armadura);
 
-            Console.WriteLine("Seu personagem está equipado com: ");
-            EquiparPersonagem usar_espada = new EquiparPersonagem(espada);
-            EquiparPersonagem usar_escudo = new EquiparPersonagem(escudo);
-            EquiparPersonagem usar_capacete = new EquiparPersonagem(capacete);
+            Console.WriteLine("Descrição: " + armadura.Descricao.TrimEnd(' ', ','));
 
             Console.ReadKey();
         }
