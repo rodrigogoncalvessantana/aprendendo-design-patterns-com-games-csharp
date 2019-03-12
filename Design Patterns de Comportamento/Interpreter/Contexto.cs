@@ -2,6 +2,6 @@
 {
     public class Contexto
     {
-        public string Output { get; set; }
+        public string Conteudo { get; set; }
     }
 }

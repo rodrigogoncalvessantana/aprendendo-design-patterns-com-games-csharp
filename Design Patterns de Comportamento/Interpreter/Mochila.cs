@@ -4,10 +4,9 @@ namespace Interpreter
 {
     public class Mochila : IExpressao
     {
-        private readonly IFerramenta ferramenta_principal;
-        private readonly IFerramenta ferramenta_secundaria;
-        private readonly IArmamento armamento;
-
+        private IFerramenta ferramenta_principal;
+        private IFerramenta ferramenta_secundaria;
+        private IArmamento armamento;
 
         public Mochila(IFerramenta ferramenta_principal, IFerramenta ferramenta_secundaria, IArmamento armamento)
         {
@@ -18,16 +17,15 @@ namespace Interpreter
 
         public void Interpretar(Contexto contexto)
         {            
-            contexto.Output += "Abrindo mochila... | ";                        
+            contexto.Conteudo += "Abrindo mochila... \n";                        
             armamento.Interpretar(contexto);            
-            contexto.Output += ", 1º Ferramenta";
+            contexto.Conteudo += "- 1º Ferramenta";
             ferramenta_principal.Interpretar(contexto);
-            contexto.Output += " e 2º Ferramenta";
-            ferramenta_secundaria.Interpretar(contexto);           
-            contexto.Output += " |";           
-            contexto.Output += " ... Fechando mochila"; 
+            contexto.Conteudo += "- 2º Ferramenta";
+            ferramenta_secundaria.Interpretar(contexto);                              
+            contexto.Conteudo += "\n... Fechando mochila"; 
             
-            Console.WriteLine(contexto.Output);
+            Console.WriteLine(contexto.Conteudo);
         }
     }
 }

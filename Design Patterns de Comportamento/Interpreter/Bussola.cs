@@ -4,7 +4,7 @@
     {
         public void Interpretar(Contexto contexto)
         {
-            contexto.Output += string.Format(" {0} ", " Bússola ");
+            contexto.Conteudo += string.Format(" {0} ", " Bússola ");
         }
     }
 }

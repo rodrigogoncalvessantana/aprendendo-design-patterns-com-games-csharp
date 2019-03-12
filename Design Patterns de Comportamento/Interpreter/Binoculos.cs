@@ -4,7 +4,7 @@
     {
         public void Interpretar(Contexto contexto)
         {
-            contexto.Output += string.Format(" {0} ", " Binóculos ");
+            contexto.Conteudo += string.Format(" {0} ", " Binóculos ");
         }
     }
 }
