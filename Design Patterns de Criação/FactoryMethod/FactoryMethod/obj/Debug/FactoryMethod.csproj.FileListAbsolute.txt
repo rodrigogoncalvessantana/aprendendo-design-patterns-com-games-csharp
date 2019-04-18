@@ -1,7 +1,0 @@
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\bin\Debug\FactoryMethod.exe.config
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\bin\Debug\FactoryMethod.exe
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\bin\Debug\FactoryMethod.pdb
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\obj\Debug\FactoryMethod.csprojAssemblyReference.cache
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\obj\Debug\FactoryMethod.exe
-\\Mac\Home\Desktop\Pattners Update\Factory Method\FactoryMethod\FactoryMethod\obj\Debug\FactoryMethod.pdb
