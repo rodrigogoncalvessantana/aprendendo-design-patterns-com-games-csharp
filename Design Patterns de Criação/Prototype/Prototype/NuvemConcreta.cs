@@ -3,21 +3,21 @@
 
 namespace Prototype
 {
-    public class NuvemUm : Nuvem
+    public class NuvemConcreta : NuvemMolde
     {
         private string cor_preenchimento;
         private string cor_contorno;        
 
-        public NuvemUm(string preenchimento, string contorno)
+        public NuvemConcreta(string preenchimento, string contorno)
         {
             this.cor_preenchimento = preenchimento;
             this.cor_contorno = contorno;            
         }
 
-        public override Nuvem Clone()
+        public override NuvemMolde Clone()
         {
             Console.WriteLine("A nuvem clonada tem contorno " + this.cor_contorno + " e preenchimento " + this.cor_preenchimento);
-            return this.MemberwiseClone() as Nuvem;
+            return this.MemberwiseClone() as NuvemMolde;
         }
     }
 }

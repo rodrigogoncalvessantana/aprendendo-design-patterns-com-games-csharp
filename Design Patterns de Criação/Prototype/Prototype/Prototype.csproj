@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NuvemUm.cs" />
+    <Compile Include="NuvemConcreta.cs" />
     <Compile Include="GerenciadorNuvens.cs" />
-    <Compile Include="Nuvem.cs" />
+    <Compile Include="NuvemMolde.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

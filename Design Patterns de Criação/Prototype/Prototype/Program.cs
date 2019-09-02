@@ -9,12 +9,12 @@ namespace Prototype
         {
             GerenciadorNuvens gerenciador_de_nuvens = new GerenciadorNuvens();
 
-            gerenciador_de_nuvens["padrão"] = new NuvemUm("branco", "azul");
-            gerenciador_de_nuvens["personalizada"] = new NuvemUm("branco", "laranja");
+            gerenciador_de_nuvens["padrão"] = new NuvemConcreta("branco", "azul");
+            gerenciador_de_nuvens["personalizada"] = new NuvemConcreta("branco", "laranja");
             
-            NuvemUm um   = gerenciador_de_nuvens["padrão"].Clone() as NuvemUm;
-            NuvemUm dois = gerenciador_de_nuvens["padrão"].Clone() as NuvemUm;
-            NuvemUm tres = gerenciador_de_nuvens["personalizada"].Clone() as NuvemUm;
+            NuvemConcreta um   = gerenciador_de_nuvens["padrão"].Clone() as NuvemConcreta;
+            NuvemConcreta dois = gerenciador_de_nuvens["padrão"].Clone() as NuvemConcreta;
+            NuvemConcreta tres = gerenciador_de_nuvens["personalizada"].Clone() as NuvemConcreta;
           
             Console.ReadKey();
         }
