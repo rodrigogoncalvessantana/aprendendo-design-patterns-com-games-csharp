@@ -2,7 +2,7 @@
 
 namespace Adapter
 {
-    public interface IPersonagem
+    public interface IAcao
     {
         void Andar(string jogador);
         void Atirar();

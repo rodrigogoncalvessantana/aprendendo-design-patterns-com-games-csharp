@@ -2,7 +2,7 @@
 
 namespace Adapter
 {
-    public class Adapter : IPersonagem
+    public class Adapter : IAcao
     {
         Aviao aviao;
 
@@ -18,7 +18,7 @@ namespace Adapter
 
         public void Atirar()
         {
-            this.aviao.SoltarMíssil();
+            this.aviao.SoltarMissil();
         }
        
     }

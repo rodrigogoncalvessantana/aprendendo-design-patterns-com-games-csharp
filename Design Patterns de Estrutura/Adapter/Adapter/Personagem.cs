@@ -2,7 +2,7 @@
 
 namespace Adapter
 {
-    public class Personagem : IPersonagem
+    public class Personagem : IAcao
     {        
         public void Atirar()
         {

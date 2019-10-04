@@ -9,7 +9,7 @@ namespace Adapter
             Console.WriteLine(personagem + " VOOU PARA FRENTE!");
         }
         
-        public void SoltarMíssil()
+        public void SoltarMissil()
         {          
             Console.WriteLine("Soltou um míssil no jogo!");
         }
